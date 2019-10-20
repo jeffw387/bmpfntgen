@@ -6,6 +6,7 @@ edition = "2018"
 license = "MIT OR Apache-2.0"
 description = "A CLI tool to generate sprite sheets from fonts"
 keywords = ["bitmap", "font", "cli", "spritesheet"]
+repository = "https://github.com/jeffw387/bmpfntgen"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -13,5 +14,5 @@ keywords = ["bitmap", "font", "cli", "spritesheet"]
 rusttype = "^0.8.1"
 structopt = "^0.3"
 image = "0.22.3"
-serde = { version = "", features = ["derive"] }
-serde_json = ""
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
