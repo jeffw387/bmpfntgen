@@ -3,6 +3,9 @@ name = "bmpfntgen"
 version = "0.1.0"
 authors = ["Jeff Wright <jeff@teamjk.page>"]
 edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "A CLI tool to generate sprite sheets from fonts"
+keywords = ["bitmap", "font", "cli", "spritesheet"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
